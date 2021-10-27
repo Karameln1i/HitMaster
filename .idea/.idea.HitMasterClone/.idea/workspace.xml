@@ -34,14 +34,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimatorPlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BulletColionHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/StateMachine/Transition.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelEnd.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/StateMachine/State.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/StateMachine/StateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyCollisionHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Pistol.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BulletColisionHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/StateMachine/ShootState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/StateMachine/Wave.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/StateMachine/DistanceTransition.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/StateMachine/MoveState.cs" />
@@ -49,12 +45,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ControlPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Wave.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Ui/HealthRenderer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyRagdoll.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/StateMachine/KillAllEnemiesTransition.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/StateMachine/ShootState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/StateMachine/StateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/StateMachine/Transition.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Wave.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pistol.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyRagdoll.cs" />
       </list>
     </option>
   </component>
@@ -89,7 +89,11 @@
       <workItem from="1635174813790" duration="11455000" />
       <workItem from="1635240096044" duration="5445000" />
       <workItem from="1635254685347" duration="10915000" />
-      <workItem from="1635270681785" duration="3480000" />
+      <workItem from="1635270681785" duration="4276000" />
+      <workItem from="1635327683361" duration="2000" />
+      <workItem from="1635327959396" duration="70000" />
+      <workItem from="1635328156724" duration="163000" />
+      <workItem from="1635335426517" duration="745000" />
     </task>
     <servers />
   </component>

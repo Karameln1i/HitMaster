@@ -222,7 +222,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: dce3a789f595f224a85f5cf4f2e6667d, type: 2}
     - target: {fileID: 64318896621619252, guid: e0d3f8289f60e1e49a5d66d5eb8582f3, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0d3f8289f60e1e49a5d66d5eb8582f3, type: 3}
@@ -1804,6 +1804,22 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.z
       value: -0.020459704
       objectReference: {fileID: 0}
+    - target: {fileID: 8095093127625553521, guid: 1d8aa5605113c1a4bb75e63186f87d1e, type: 3}
+      propertyPath: _force
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8095093127625553521, guid: 1d8aa5605113c1a4bb75e63186f87d1e, type: 3}
+      propertyPath: _direction.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8095093127625553521, guid: 1d8aa5605113c1a4bb75e63186f87d1e, type: 3}
+      propertyPath: _direction.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8095093127625553521, guid: 1d8aa5605113c1a4bb75e63186f87d1e, type: 3}
+      propertyPath: _direction.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8095093127625553526, guid: 1d8aa5605113c1a4bb75e63186f87d1e, type: 3}
       propertyPath: m_Name
       value: Enemy (3)
@@ -2066,6 +2082,22 @@ PrefabInstance:
     - target: {fileID: 8095093127430189629, guid: 1d8aa5605113c1a4bb75e63186f87d1e, type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: -0.020459592
+      objectReference: {fileID: 0}
+    - target: {fileID: 8095093127625553521, guid: 1d8aa5605113c1a4bb75e63186f87d1e, type: 3}
+      propertyPath: _force
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8095093127625553521, guid: 1d8aa5605113c1a4bb75e63186f87d1e, type: 3}
+      propertyPath: _direction.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8095093127625553521, guid: 1d8aa5605113c1a4bb75e63186f87d1e, type: 3}
+      propertyPath: _direction.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8095093127625553521, guid: 1d8aa5605113c1a4bb75e63186f87d1e, type: 3}
+      propertyPath: _direction.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8095093127625553526, guid: 1d8aa5605113c1a4bb75e63186f87d1e, type: 3}
       propertyPath: m_Name
@@ -2441,6 +2473,18 @@ PrefabInstance:
     - target: {fileID: 8095093126999956723, guid: 1d8aa5605113c1a4bb75e63186f87d1e, type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: -0.048519667
+      objectReference: {fileID: 0}
+    - target: {fileID: 8095093127625553521, guid: 1d8aa5605113c1a4bb75e63186f87d1e, type: 3}
+      propertyPath: _force
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8095093127625553521, guid: 1d8aa5605113c1a4bb75e63186f87d1e, type: 3}
+      propertyPath: _direction.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8095093127625553521, guid: 1d8aa5605113c1a4bb75e63186f87d1e, type: 3}
+      propertyPath: _direction.z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8095093127625553526, guid: 1d8aa5605113c1a4bb75e63186f87d1e, type: 3}
       propertyPath: m_Name
@@ -5453,6 +5497,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 606378357}
     m_Modifications:
+    - target: {fileID: 8095093127625553521, guid: 1d8aa5605113c1a4bb75e63186f87d1e, type: 3}
+      propertyPath: _force
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8095093127625553521, guid: 1d8aa5605113c1a4bb75e63186f87d1e, type: 3}
+      propertyPath: _direction.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8095093127625553521, guid: 1d8aa5605113c1a4bb75e63186f87d1e, type: 3}
+      propertyPath: _direction.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8095093127625553526, guid: 1d8aa5605113c1a4bb75e63186f87d1e, type: 3}
       propertyPath: m_Name
       value: Enemy

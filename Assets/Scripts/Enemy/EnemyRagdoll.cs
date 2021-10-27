@@ -8,6 +8,9 @@ public class EnemyRagdoll : MonoBehaviour
     [SerializeField] private Animator _animator;
     [SerializeField] private Rigidbody[] _rigidbodys;
     [SerializeField] private EnemyCollisionHandler _collisionHandler;
+    [SerializeField] private float _force;
+    [SerializeField] private Vector3 _direction;
+        
 
     private Enemy _enemy;
 
@@ -29,10 +32,10 @@ public class EnemyRagdoll : MonoBehaviour
     private void TurnOnRagdoll(Enemy enemy)
     {
         _animator.enabled = false;
-        
         for (int i = 0; i < _rigidbodys.Length; i++)
         {
             _rigidbodys[i].isKinematic = false;
+            _rigidbodys[i].AddForce(_direction*_force,ForceMode.Impulse);
         }
     }
 }
