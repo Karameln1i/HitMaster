@@ -20,10 +20,6 @@ public class Pistol : ObjectPool
             SetBullet(bullet);
             bullet.FlyToGoal(direction);
        }
-       
-      
-       //Bullet bullet = Instantiate(_bullet,_muzzle.transform.position,Quaternion.identity);
-       //bullet.FlyToGoal(direction);
    }
 
    private void SetBullet(Bullet bullet)
